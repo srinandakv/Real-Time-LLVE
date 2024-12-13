@@ -14,7 +14,7 @@ This project provides a real-time low-light video enhancement system for the Tex
 ![image](https://github.com/user-attachments/assets/94f0396b-7986-447c-86f1-0c3f81b163f3)
 
 ## Model and Dataset
-Zero-Reference Deep Curve Estimation (Zero-DCE) is a deep learning-based approach for low-light image enhancement that stands out because it does not rely on any paired or unpaired data for training (hence, "zero-reference"). It operates by estimating a set ofenhancement curves that are applied to the input image to produce an enhanced output. Thearchitecture is lightweight, efficient, and capable of running on low-resource devices, making it an attractive choice for this project.
+Zero-Reference Deep Curve Estimation (Zero-DCE) is a deep learning-based approach for low-light image enhancement that stands out because it does not rely on any paired or unpaired data for training (hence, "zero-reference"). It operates by estimating a set of enhancement curves that are applied to the input image to produce an enhanced output. The architecture is lightweight, efficient, and capable of running on low-resource devices, making it an attractive choice for this project.
 
 The model will be trained using the low light images from the LoL (Low Light) dataset.The LoL (Low-Light) dataset is specifically designed for the task of low-light image enhancement. It consists of 500 pairs of low-light and normal-light images captured in real- world environments. However in order to train the DCE-Net, the corresponding enhanced images will not be required.
 
