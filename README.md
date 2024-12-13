@@ -19,7 +19,14 @@ Zero-Reference Deep Curve Estimation (Zero-DCE) is a deep learning-based approac
 The model will be trained using the low light images from the LoL (Low Light) dataset.The LoL (Low-Light) dataset is specifically designed for the task of low-light image enhancement. It consists of 500 pairs of low-light and normal-light images captured in real- world environments. However in order to train the DCE-Net, the corresponding enhanced images will not be required.
 
 ## References
-1.Chunle Guo, Chongyi Li, Jichang Guo, Chen Change Loy, Junhui Hou, Sam Kwong, and Runmin Cong. "Zero-Reference Deep Curve Estimation for Low-Light Image
-Enhancement." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020, pp. 1780-1789
-2.Chen Wei, Wenjing Wang, Wenhan Yang, and Jiaying Liu. "Deep Retinex decomposition for low-light enhancement." British Machine Vision Conference (BMVC),2018.
-3.[Zero-DCE for low-light image enhancement] (https://keras.io/examples/vision/zero_dce/)
+
+1. **Chunle Guo, Chongyi Li, Jichang Guo, Chen Change Loy, Junhui Hou, Sam Kwong, and Runmin Cong.**  
+   *"Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement."*  
+   Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020, pp. 1780-1789.
+
+2. **Chen Wei, Wenjing Wang, Wenhan Yang, and Jiaying Liu.**  
+   *"Deep Retinex Decomposition for Low-Light Enhancement."*  
+   British Machine Vision Conference (BMVC), 2018.
+
+3. [**Zero-DCE for Low-Light Image Enhancement**](https://keras.io/examples/vision/zero_dce/)
+
