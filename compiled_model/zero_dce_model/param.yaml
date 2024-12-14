@@ -1,0 +1,44 @@
+preprocess:
+  resize:
+  - 600
+  - 400
+  crop:
+  - 600
+  - 400
+  data_layout: NHWC
+  resize_with_pad: false
+  reverse_channels: false
+  add_flip_image: false
+session:
+  session_name: tflitert
+  model_path: model/zero_dce_model.tflite
+  input_mean:
+  - 0
+  - 0
+  - 0
+  input_scale:
+  - 0.003922
+  - 0.003922
+  - 0.003922
+  input_optimization: true
+  input_details:
+  - name: serving_default_args_0:0
+    shape:
+    - 1
+    - 3
+    - 400
+    - 600
+    type: tensor(float)
+  output_details:
+  - name: serving_default_args_0:0
+    shape:
+    - 1
+    - 400
+    type: tensor(float)
+  artifacts_folder: artifacts
+  input_data_layout: NHWC
+  target_device: AM62A
+postprocess: {}
+task_type: custom
+metric: {}
+optional_options: {}
