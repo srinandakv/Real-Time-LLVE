@@ -23,9 +23,9 @@ This project provides a real-time low-light video enhancement system for the Tex
 
 ## About the Hardware
 
-![SDK-AM62A-LP](/Assets/evm.png)
+![SK-AM62A-LP](/Assets/evm.png)
 
-The **SDK-AM62A-LP** is a low-power software development kit designed by Texas Instruments to support the AM62A family of processors, which target edge AI, vision, and industrial IoT applications. This SDK provides comprehensive tools and resources, including prebuilt libraries, frameworks, and documentation, to facilitate efficient development and optimization of machine learning and computer vision solutions. It is tailored for embedded Linux and real-time operating systems, offering developers flexibility and scalability for prototyping and deploying applications across industries.
+The TI **SK-AM62A-LP** evaluation module is a cost-effective development platform designed for evaluating and prototyping applications with Texas Instruments' AM62A processor. Targeting AI and vision-centric use cases, this low-power board supports machine learning inference, edge computing, and industrial IoT applications. It features key interfaces such as HDMI, Ethernet, and USB for flexible connectivity, along with camera and display options to facilitate multimedia processing. The EVM is also compatible with TI's software ecosystem, including Processor SDK Linux and Edge AI tools, enabling developers to accelerate application development with robust support and pre-built examples.
 
 ## About the Model
 
