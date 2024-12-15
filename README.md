@@ -53,14 +53,10 @@ As seen in the image above, the enhanced image processed on CPU is much clearer 
 
 ## References
 
-- **Chunle Guo, Chongyi Li, Jichang Guo, Chen Change Loy, Junhui Hou, Sam Kwong, and Runmin Cong.**  
-   *"Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement."*  
-   Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020, pp. 1780-1789.
+- Chunle Guo, Chongyi Li, Jichang Guo, Chen Change Loy, Junhui Hou, Sam Kwong, and Runmin Cong, "Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020, pp. 1780-1789.
 
-- **Chen Wei, Wenjing Wang, Wenhan Yang, and Jiaying Liu.**  
-   *"Deep Retinex Decomposition for Low-Light Enhancement."*  
-   British Machine Vision Conference (BMVC), 2018.
+- Chen Wei, Wenjing Wang, Wenhan Yang, and Jiaying Liu, "Deep Retinex Decomposition for Low-Light Enhancement." British Machine Vision Conference (BMVC), 2018.
 
-- [**Zero-DCE for Low-Light Image Enhancement**](https://keras.io/examples/vision/zero_dce/)
+- [Zero-DCE for Low-Light Image Enhancement](https://keras.io/examples/vision/zero_dce/)
 
-- [**EdgeAI TIDL Tool**](https://github.com/TexasInstruments/edgeai-tidl-tools)
+- [EdgeAI TIDL Tool](https://github.com/TexasInstruments/edgeai-tidl-tools)
