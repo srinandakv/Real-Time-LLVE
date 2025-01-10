@@ -36,6 +36,16 @@ interpret.invoke()
 output_data = interpret.get_tensor(output_details[0]['index'])
 output_image_data = (output_data[0] * 255 * 255).clip(0, 255).astype(np.uint8)
 
+r1_low_limit, r1_high_limit = 0, 67
+output_image_data[r1_low_limit:r1_high_limit, :, 0] = cv2.add(output_image_data[r1_low_limit:r1_high_limit, :, 0], 20)
+output_image_data[r1_low_limit:r1_high_limit, :, 2] = cv2.add(output_image_data[r1_low_limit:r1_high_limit, :, 2], 30)
+output_image_data[r1_low_limit:r1_high_limit, :, 1] = cv2.add(output_image_data[r1_low_limit:r1_high_limit, :, 1], 30)
+
+r1_low_limit, r1_high_limit = 132, 201
+output_image_data[r1_low_limit:r1_high_limit, :, 0] = cv2.subtract(output_image_data[r1_low_limit:r1_high_limit, :, 0], 30)
+output_image_data[r1_low_limit:r1_high_limit, :, 2] = cv2.subtract(output_image_data[r1_low_limit:r1_high_limit, :, 2], 20)
+output_image_data[r1_low_limit:r1_high_limit, :, 1] = cv2.add(output_image_data[r1_low_limit:r1_high_limit, :, 1], 25)
+
 # Save the output image
 cv2.imwrite(output_image_path, output_image_data)
 print ('Closing....')

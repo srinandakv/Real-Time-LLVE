@@ -2,6 +2,9 @@
 
 This repository houses the codes and resources associated with our work for the VLSID Design Contest 2024-25.
 
+>### 🏆 This project has been recognized as one of the top 5 TI projects of the Design Contest at the prestigious VLSI Design Conference 2025.
+> [Check out the post ⭢](https://www.linkedin.com/posts/himalya_brightertogether-vlsid2025-activity-7276544217110269952-IYtX?utm_source=share&utm_medium=member_desktop)
+
 ## Team Members
 
 <a href="https://github.com/srinandakv/Real-Time-LLVE/graphs/contributors">

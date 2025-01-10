@@ -1,0 +1,13 @@
+inFileFormat    = 1
+numFrames   = 3
+postProcType   = 0
+postProcDataId   = 0
+quantRangeUpdateFactor   = -1.000000
+inData   = /home/root/model-artifacts/zero_dce_model/artifacts/tempDir/74_calib_raw_data.bin
+outData   = "/home/root/model-artifacts/zero_dce_model/artifacts/tempDir/74_tidl_io__stats_tool_out.bin"
+netBinFile     = /home/root/model-artifacts/zero_dce_model/artifacts/tempDir/74_tidl_net.bin
+ioConfigFile        = /home/root/model-artifacts/zero_dce_model/artifacts/tempDir/74_tidl_io_1.bin
+writeTraceLevel        = 0
+debugTraceLevel        = 0
+traceDumpBaseName        = "/home/root/model-artifacts/zero_dce_model/artifacts/tempDir/74_tidl_io_
+flowCtrl               = 35
