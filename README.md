@@ -52,7 +52,7 @@ As seen in the image above, the enhanced image processed on CPU is much clearer 
 
 ## Final Result
 
-https://github.com/user-attachments/assets/d8b418ad-adfe-4602-ad2f-c06f164ee750
+https://github.com/user-attachments/assets/6710611b-e4fd-4c9c-aef8-357d4221ba28
 
 ## References
 
